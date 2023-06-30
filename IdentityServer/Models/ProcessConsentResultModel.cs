@@ -1,0 +1,22 @@
+// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
+// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
+
+
+using Duende.IdentityServer.Models;
+using IdentityServer.Models.ViewModels;
+
+namespace IdentityServer.Models
+{
+    public class ProcessConsentResultModel
+    {
+        public bool IsRedirect => RedirectUri != null;
+        public string? RedirectUri { get; set; }
+        public Client? Client { get; set; }
+
+        public bool ShowView => ViewModel != null;
+        public ConsentViewModel? ViewModel { get; set; }
+
+        public bool HasValidationError => ValidationError != null;
+        public string ValidationError { get; set; }
+    }
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erebor.Application", "Erebor.Application\Erebor.Application.csproj", "{9E512A92-982F-49F8-B1E4-84A7D56439B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erebor.Data", "Erebor.Data\Erebor.Data.csproj", "{207DF5F5-4637-443F-808C-959F591B4F7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erebor.Domain", "Erebor.Domain\Erebor.Domain.csproj", "{EB8AB43D-AADF-447D-AE63-65D9708061EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erebor.Infrastructure", "Erebor.Infrastructure\Erebor.Infrastructure.csproj", "{8147E7D4-3EEB-4F68-865B-4F64C479019C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erebor.WebApi", "Erebor.WebApi\Erebor.WebApi.csproj", "{C78743D9-C6C4-4DAC-BDE5-DE9FF1334732}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{B9388617-B122-4332-83A0-342356E68912}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E512A92-982F-49F8-B1E4-84A7D56439B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E512A92-982F-49F8-B1E4-84A7D56439B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E512A92-982F-49F8-B1E4-84A7D56439B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E512A92-982F-49F8-B1E4-84A7D56439B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207DF5F5-4637-443F-808C-959F591B4F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207DF5F5-4637-443F-808C-959F591B4F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207DF5F5-4637-443F-808C-959F591B4F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207DF5F5-4637-443F-808C-959F591B4F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8AB43D-AADF-447D-AE63-65D9708061EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8AB43D-AADF-447D-AE63-65D9708061EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8AB43D-AADF-447D-AE63-65D9708061EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8AB43D-AADF-447D-AE63-65D9708061EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8147E7D4-3EEB-4F68-865B-4F64C479019C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8147E7D4-3EEB-4F68-865B-4F64C479019C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8147E7D4-3EEB-4F68-865B-4F64C479019C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8147E7D4-3EEB-4F68-865B-4F64C479019C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78743D9-C6C4-4DAC-BDE5-DE9FF1334732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78743D9-C6C4-4DAC-BDE5-DE9FF1334732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78743D9-C6C4-4DAC-BDE5-DE9FF1334732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78743D9-C6C4-4DAC-BDE5-DE9FF1334732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9388617-B122-4332-83A0-342356E68912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9388617-B122-4332-83A0-342356E68912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9388617-B122-4332-83A0-342356E68912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9388617-B122-4332-83A0-342356E68912}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBD8B13E-8A93-4032-B379-770BF20E0A35}
+	EndGlobalSection
+EndGlobal
